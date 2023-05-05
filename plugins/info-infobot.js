@@ -40,7 +40,7 @@ let info = `
 ╠➥ [👨‍🦯] 𝚅𝙴𝙻𝙾𝙲𝙸𝙳𝙰𝙳: 
 ╠  *${speed} ms* 
 ╠
-╠═〘 𝐁𝐨𝐭𝐱𝐪𝐮𝐞𝐞𝐧𝐚 〙 ═
+╠═〘 𝐍𝐚𝐧𝐮 𝐁𝐨𝐭 〙 ═
 `.trim() 
 let aa = { quoted: m, userJid: conn.user.jid }
 let res = generateWAMessageFromContent (m.chat, {liveLocationMessage: {degreesLatitude: 0, degreesLongitude: 0, caption: info, secuenceNumber: "0", contextInfo: {mentionedJid: conn.parseMention()}}}, aa)
